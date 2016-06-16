@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <th>PID</th>
+    <th>Processo</th>
+  </thead>
+  <tbody>
+    <% @list.each do |val| %>
+      <tr>
+        <td><%= val.pid %></td>
+        <td><%= val.desc %></td>
+        <td>
+        <form action="/kill/<%= val.pid %>" method="post">          
+          <input type="submit" value="Matar"/>
+        </form></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table

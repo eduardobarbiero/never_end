@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    sys-proctable (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sys-proctable
+
+BUNDLED WITH
+   1.12.5
